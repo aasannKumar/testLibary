@@ -1,0 +1,60 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "ES6",
+      "lib": ["ES6", "DOM"],
+      "jsx": "react",
+      "outDir": "dist",
+      "rootDir": "src",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "declaration": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+  }  
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ES5",
+//     "module": "ES6",
+//     "lib": ["ES6", "DOM"],
+//     "jsx": "react",
+//     "outDir": "dist",
+//     "rootDir": "src",
+//     "strict": true,
+//     "moduleResolution": "node",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "declaration": true,  // Generates the .d.ts files
+//     "declarationDir": "dist/types"  // Output directory for the .d.ts files
+//   },
+//   "include": ["src"],
+//   "exclude": ["node_modules", "**/__tests__/*"]
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ES5",
+//     "module": "ES6",
+//     "lib": ["ES6", "DOM"],
+//     "jsx": "react",
+//     "rootDir": "src",
+//     "strict": true,
+//     "moduleResolution": "node",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "declaration": true,
+//     "declarationDir": "dist",  // Only output type declarations
+//     "emitDeclarationOnly": true // Do not output JS, only .d.ts files
+//   },
+//   "include": ["src"],
+//   "exclude": ["node_modules", "**/__tests__/*"]
+// }
